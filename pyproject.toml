@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "portfolio-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["Adan Aviles <adan.aviles.cahill@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yfinance = "^0.2.43"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
